@@ -1,7 +1,11 @@
 import  Link  from 'next/link';
 import { Fragment } from 'react';
+import NewMeetupForm from '@/components/meetups/NewMeetupForm';
 
 function ArticlesPage () {
+  function addMeetupHandler(enteredMeetupData) {
+    console.log(enteredMeetupData)
+  }
   return (
     <Fragment>
       <h1>The Articles Page</h1>
@@ -12,6 +16,7 @@ function ArticlesPage () {
           </Link>
         </li>
       </ul>
+      <NewMeetupForm onAddMeetup={addMeetupHandler}/>
     </Fragment>
   )
 }
