@@ -1,7 +1,9 @@
 import { useRouter } from 'next/router';
 
 function ArticlesDetailsPage () {
-const router = useRouter()
+  const router = useRouter()
+
+  const articlesId = router.query.articlesID
 
 
 
