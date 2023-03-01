@@ -1,15 +1,15 @@
 // import { useRouter } from 'next/router';
-import { Fragment } from 'react'
+import ArticlesDetails from '@/components/meetups/ArticlesDetail'
+
 
 function ArticlesDetailsPage () {
   return (
-    <Fragment>
-      <img src='https://res.cloudinary.com/dlwvuv2hh/image/upload/v1677662094/sacblog2_vqpszs.png'
-       alt='First Post' />
-       <h1>First Blog Post</h1>
-       <h3> Queen Ozone </h3>
-       <p> The Blogs description</p>
-    </Fragment> 
+    <ArticlesDetails 
+      image='https://res.cloudinary.com/dlwvuv2hh/image/upload/v1677662094/sacblog2_vqpszs.png'
+      title='How to get into sports'
+      creator='Queen Ozone'
+      description='Learn how to leverage your determination and talent and suceed in sports'
+    />
   )
 }
 
