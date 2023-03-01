@@ -17,7 +17,7 @@ function MeetupItem(props) {
         </div>
         <div className={classes.content}>
           <h3>{props.title}</h3>
-          <h4>{props.creator}</h4>
+          <h4>Author: {props.creator}</h4>
         </div>
         <div className={classes.actions}>
           <button onClick={showDetailsHandler}>Read More</button>
