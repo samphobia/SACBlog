@@ -4,7 +4,7 @@ import { Fragment } from 'react'
 function ArticlesDetailsPage () {
   return (
     <Fragment>
-      <img src='https://unsplash.com/photos/OgqWLzWRSaI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink'
+      <img src='https://res.cloudinary.com/dlwvuv2hh/image/upload/v1677662094/sacblog2_vqpszs.png'
        alt='First Post' />
        <h1>First Blog Post</h1>
        <h3> Queen Ozone </h3>
